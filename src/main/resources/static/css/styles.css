@@ -1,0 +1,99 @@
+body {
+    padding-top: 75px;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+#heading {
+    text-align: center;
+    color: #111827;
+    text-decoration: underline #111827 solid;
+    text-decoration-thickness: auto;
+}
+
+#player1-board {
+    flex-direction: row-reverse;
+    background-color: #c06c18;    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #964B00;
+    padding: 15px;
+}
+
+.flex-container > div {
+    width: 120px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 120px;
+    text-align: center;
+}
+
+.enabled {
+    cursor: pointer;
+    background-color: #f1f1f1;;
+}
+
+.disabled {
+    background-color: #aaaaaa88;;
+}
+
+#player1-mancala label, #player2-mancala label {
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+}
+
+#player1-mancala, #player2-mancala {
+    background-color: #8caee7;
+    border-radius: 10px;
+    color: #6f8ab87e;
+    cursor:not-allowed;
+}
+
+#newGame {
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209,213,219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#newGame:hover {
+  background-color: rgb(249,250,251);
+}
+
+#newGame:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+#newGame:focus-visible {
+  box-shadow: none;
+}
+
+.ButtonContainer {
+    margin-top: 80px;
+}
+
